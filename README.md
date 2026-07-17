@@ -14,16 +14,6 @@ This is the complete hardware setup used for the project.
 
 ---
 
-# System Architecture
-
-The following block diagram illustrates communication between the LM35 sensor, STM32, ESP32, and Blynk Cloud.
-
-<p align="center">
-  <img src="images/diagram.png" width="850">
-</p>
-
----
-
 # Hardware Circuit
 
 The circuit connections between LM35, STM32 and ESP32 are shown below.
