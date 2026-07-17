@@ -27,41 +27,6 @@ The project demonstrates the complete embedded workflow from **sensor interfacin
 
 Prototype assembled using an STM32 development board, ESP32 DevKit, LM35 sensor, and breadboard.
 
----
-
-# 🏗️ System Architecture
-
-```text
-+---------+
-|  LM35   |
-+---------+
-      |
-      | Analog Voltage
-      |
-+------------------+
-|   STM32 (ADC)    |
-+------------------+
-      |
- UART (115200 baud)
-      |
-+------------------+
-|      ESP32       |
-+------------------+
-      |
-     WiFi
-      |
-+------------------+
-|   Blynk Cloud    |
-+------------------+
-      |
-+------------------+
-| Mobile Dashboard |
-|  Email Alerts    |
-+------------------+
-```
-
----
-
 # 🔌 Hardware Circuit
 
 <p align="center">
