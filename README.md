@@ -74,7 +74,7 @@ The complete data flow consists of:
 During this project I implemented:
 
 - Configured STM32 ADC for analog temperature acquisition
-- Implemented UART communication between STM32 and ESP32
+- Implemented UART communication between STM32G474RE and ESP32
 - Developed UART data parsing on ESP32
 - Integrated ESP32 with WiFi and Blynk IoT Cloud
 - Implemented threshold-based event notifications
