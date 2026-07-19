@@ -39,7 +39,7 @@ Complete hardware prototype consisting of an Arduino-based battery monitoring no
 # 🔌 Hardware Architecture
 
 <p align="center">
-<img src="images/circuit_diagram.jpeg" width="1000">
+<img src="images/circuit_diagram.png" width="1000">
 </p>
 
 The system consists of two distributed embedded nodes:
