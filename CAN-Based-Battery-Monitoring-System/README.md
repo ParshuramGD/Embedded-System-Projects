@@ -368,20 +368,6 @@ CAN-Based-Battery-Monitoring-System
 
 ---
 
-# 🎯 Possible Interview Questions
-
-- Why choose CAN instead of UART?
-- What are the advantages of CAN in automotive systems?
-- Why is SPI used with MCP2515?
-- Why is I²C used for the LCD?
-- How does CAN arbitration work?
-- How are CAN IDs used?
-- How would you detect CAN communication errors?
-- Why use an ESP32 gateway?
-- How would you scale this system to multiple battery nodes?
-- How would you improve this design for production?
-
----
 
 # 👨‍💻 Author
 
