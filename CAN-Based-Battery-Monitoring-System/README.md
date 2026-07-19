@@ -63,12 +63,12 @@ The system consists of two distributed embedded nodes:
 
 ---
 ### Battery Specs (18650 Li-ion battery)
-Type: Lithium-ion rechargeable
-Size: 18650
-Nominal Voltage: 3.7 V
-Fully Charged Voltage: 4.2 V
-Discharge Cutoff: Approximately 2.8–3.0 V
-Capacity: Typically 2000–3500 mAh (depends on the specific cell)
+-Type: Lithium-ion rechargeable
+-Size: 18650
+-Nominal Voltage: 3.7 V
+-Fully Charged Voltage: 4.2 V
+-Discharge Cutoff: Approximately 2.8–3.0 V
+-Capacity: Typically 2000–3500 mAh (depends on the specific cell)
 
 # 🔄 Project Workflow
 
