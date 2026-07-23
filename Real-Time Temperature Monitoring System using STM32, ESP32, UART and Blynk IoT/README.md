@@ -109,6 +109,32 @@ During this project I implemented:
 
 ---
 
+# 🌡️ Sensor Specifications
+
+### LM35 Temperature Sensor
+
+| Parameter | Specification |
+|-----------|---------------|
+| Sensor Type | Analog Temperature Sensor |
+| Operating Voltage | 4 V – 30 V DC |
+| Temperature Range | −55°C to +150°C |
+| Accuracy | ±0.5°C (Typical @ 25°C) |
+| Sensitivity | 10 mV/°C |
+| Output Type | Analog Voltage |
+| Current Consumption | < 60 µA |
+| Self-Heating | < 0.1°C in Still Air |
+| Interface | Analog ADC Input |
+
+**Working Principle**
+
+The LM35 produces an output voltage linearly proportional to temperature at a scale factor of **10 mV/°C**. The STM32 ADC samples this analog voltage, converts it into a digital value, and the firmware calculates the corresponding temperature before transmitting it to the ESP32 over UART.
+
+Temperature calculation used in the firmware:
+
+```cpp
+float voltage = adcValue * (3.3 / 4095.0);      // STM32 12-bit ADC
+float temperature = voltage * 100.0;
+```
 # 💻 Software Stack
 
 - Embedded C
