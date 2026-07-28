@@ -288,20 +288,6 @@ Embedded-System-Projects/
 - OTA firmware updates
 - Multiple sensor nodes
 
----
-
-# 🎯 Possible Interview Questions
-
-- Why did you choose UART instead of I²C or SPI?
-- Why was 115200 baud selected?
-- Why use ESP32 instead of STM32 WiFi modules?
-- Why choose LM35 over digital temperature sensors?
-- How did you debug UART communication?
-- How would you handle corrupted UART packets?
-- What improvements would you make for a production system?
-- How would you scale this project for multiple sensors?
-
----
 
 # 👨‍💻 Author
 
