@@ -9,8 +9,8 @@
 #define BLYNK_AUTH_TOKEN     "OaAUyK_scBHwVcgTsj5tVppTqJl3BgoQ"
 
 // ——— Wi-Fi Credentials ———
-static constexpr char WIFI_SSID[] = "redmi";
-static constexpr char WIFI_PASS[] = "parshuram";
+static constexpr char WIFI_SSID[] = "username";
+static constexpr char WIFI_PASS[] = "password";
 
 // ——— Virtual Pin Numbers ———
 // Use literal ints so you don’t depend on V0…V5 macros
